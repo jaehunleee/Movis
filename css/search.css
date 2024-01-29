@@ -1,0 +1,23 @@
+#main_div{
+  margin: auto;
+  width: 1000px;
+  /* background-color: black; */
+}
+
+#div1{
+  margin-top: .625rem;
+}
+
+#img_scale{
+  float: inline-start;
+  width: 6.25rem;
+  height: 9.375rem;
+  border-radius: .3125rem;
+}
+
+#sub_img{
+  margin-top: .625rem;
+  width: 3.125rem;
+  height: 2.5rem;
+  margin-left: .3125rem;
+}
