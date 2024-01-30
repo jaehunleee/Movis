@@ -7,19 +7,31 @@
   <title>Document</title>
   <link rel="stylesheet" href="../css/search.css">
   <script src="https://kit.fontawesome.com/e305523b80.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 </head>
 
 <body>
-  <div style="height: 5rem;">
+  <script>
+    let i = 0;
+  </script>
+  <div id="nav_div">
   </div>
   <div id="main_div">
     <div>
-      <strong>웰컴투의 검색 결과</strong>
-      <button style="margin-left: 9rem;">검색 필터 <i class="fa-solid fa-filter"></i></button>
+      <strong id="text_color">웰컴투의 검색 결과</strong>
+      <button id="toggle_button">검색 필터 <i class="fa-solid fa-filter"></i></button>
+    </div>
+    <div id="sub_img_toggle">
+      <img id="sub_img" src="../images/netflix.png" alt="">
+      <img id="sub_img" src="../images/watcha.png" alt="">
+      <img id="sub_img" src="../images/disney.png" alt="">
+      <img id="sub_img" src="../images/tving.png" alt="">
+      <img id="sub_img" src="../images/wavve.png" alt="">
+      <img id="sub_img" src="../images/appletv.jpg" alt="">
     </div>
     <br>
     <div>
-      <span><small>24개 영상</small></span>
+      <span id="text_color"><small>24개 영상</small></span>
       <select name="" id="">
         <option value="" selected disabled hidden>정렬 기준 Popularity</option>
         <option value="1">Popularity</option>
@@ -32,88 +44,90 @@
     <hr>
     <div id="div1">
       <a href="../html/detail.html"><img id="img_scale" src="../images/samdali.png" alt=""></a>
-      <span href=""><strong>웰컴투 삼달리 (2023)</strong></span>
+      <span id="text_color"><strong>웰컴 투 삼달리 (2023)</strong></span>
       <br>
       <br>
-      <span style="color: gray;">지금 시청하기</span>
-      <div style="background-color: beige; width: 300px;">
+      <span style="color: gray; margin-left: .4125rem;">지금 시청하기</span>
+      <div id="streaming">
         <center>스트리밍</center>
       </div>
       <img id="sub_img" src="../images/netflix.png" alt="">
       <img id="sub_img" src="../images/netflix2.png" alt="">
       <div>
-        <span>1시즌 &nbsp;</span>
-        <span>1시즌</span>
+        <span id="text_color">&nbsp;1시즌 &nbsp;&nbsp;</span>
+        <span id="text_color">1시즌</span>
       </div>
     </div>
     <hr>
     <div id="div1">
       <img id="img_scale" src="../images/welcome_to_eden.png" alt="">
-      <span href=""><strong>웰컴투 삼달리 (2023)</strong></span>
+      <span id="text_color"><strong>웰컴 투 에덴 (2022)</strong></span>
       <br>
       <br>
-      <span style="color: gray;">지금 시청하기</span>
+      <span style="color: gray; margin-left: .4125rem;">지금 시청하기</span>
       <div style="background-color: beige; width: 300px;">
         <center>스트리밍</center>
       </div>
-      <img id="sub_img" src="../images/netflix.png" alt="">
-      <img id="sub_img" src="../images/netflix2.png" alt="">
+      <img id="sub_img" src="../images/watcha.png" alt="">
+      <img id="sub_img" src="../images/disney.png" alt="">
       <div>
-        <span>1시즌 &nbsp;</span>
-        <span>1시즌</span>
+        <span id="text_color">&nbsp;1시즌 &nbsp;&nbsp;</span>
+        <span id="text_color">1시즌</span>
       </div>
     </div>
     <hr>
     <div id="div1">
       <img id="img_scale" src="../images/dongmakgol.png" alt="">
-      <span href=""><strong>웰컴투 삼달리 (2023)</strong></span>
+      <span id="text_color"><strong>웰컴 투 동막골 (2005)</strong></span>
       <br>
       <br>
-      <span style="color: gray;">지금 시청하기</span>
+      <span style="color: gray; margin-left: .4125rem;">지금 시청하기</span>
       <div style="background-color: beige; width: 300px;">
         <center>스트리밍</center>
       </div>
-      <img id="sub_img" src="../images/netflix.png" alt="">
-      <img id="sub_img" src="../images/netflix2.png" alt="">
+      <img id="sub_img" src="../images/wavve.png" alt="">
+      <img id="sub_img" src="../images/tving.png" alt="">
       <div>
-        <span>1시즌 &nbsp;</span>
-        <span>1시즌</span>
+        <span id="text_color">&nbsp;1시즌 &nbsp;&nbsp;</span>
+        <span id="text_color">1시즌</span>
       </div>
     </div>
     <hr>
     <div id="div1">
-      <img id="img_scale" src="../images/dongmakgol.png" alt="">
-      <span href=""><strong>웰컴투 삼달리 (2023)</strong></span>
+      <img id="img_scale" src="../images/welcomeToMarwen.webp" alt="">
+      <span id="text_color"><strong>웰컴 투 마웬 (2018)</strong></span>
       <br>
       <br>
-      <span style="color: gray;">지금 시청하기</span>
+      <span style="color: gray; margin-left: .4125rem;">지금 시청하기</span>
       <div style="background-color: beige; width: 300px;">
         <center>스트리밍</center>
       </div>
       <img id="sub_img" src="../images/netflix.png" alt="">
-      <img id="sub_img" src="../images/netflix2.png" alt="">
+      <img id="sub_img" src="../images/appletv.jpg" alt="">
       <div>
-        <span>1시즌 &nbsp;</span>
-        <span>1시즌</span>
+        <span id="text_color">&nbsp;1시즌 &nbsp;&nbsp;</span>
+        <span id="text_color">1시즌</span>
       </div>
     </div>
+    <hr>
     <div id="div1">
-      <img id="img_scale" src="../images/dongmakgol.png" alt="">
-      <span href=""><strong>웰컴투 삼달리 (2023)</strong></span>
+      <img id="img_scale" src="../images/welcomeToSuddendeath.jpg" alt="">
+      <span id="text_color"><strong>웰컴 투 서든 데스 (2020)</strong></span>
       <br>
       <br>
-      <span style="color: gray;">지금 시청하기</span>
+      <span style="color: gray; margin-left: .4125rem;">지금 시청하기</span>
       <div style="background-color: beige; width: 300px;">
         <center>스트리밍</center>
       </div>
-      <img id="sub_img" src="../images/netflix.png" alt="">
-      <img id="sub_img" src="../images/netflix2.png" alt="">
+      <img id="sub_img" src="../images/disney.png" alt="">
+      <img id="sub_img" src="../images/tving.png" alt="">
       <div>
-        <span>1시즌 &nbsp;</span>
-        <span>1시즌</span>
+        <span id="text_color">&nbsp;1시즌 &nbsp;&nbsp;</span>
+        <span id="text_color">1시즌</span>
       </div>
     </div>
   </div>
+  <script src="../js/search.js"></script>
 </body>
 
 </html>
