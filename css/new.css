@@ -5,7 +5,7 @@
         padding: 0;
         box-sizing: border-box;
         color: white; 
-        background-color: black;
+        background-color: #333;
     }
 
     #container{
@@ -21,6 +21,22 @@
         height: auto;
     }
 
+    #ott_box span{
+        margin : 2px;
+    }
+
+    #ott_box .netflix_button{
+        margin-left: 12px;
+    }
+
+    #ott_box img{
+        width:48px;
+        height:48px;
+    }
+
+    #ott_box img:active{
+        transform: scale(1.2);
+    }
 
     #new_box{
         width: 100%;
@@ -42,8 +58,14 @@
         padding: 20px;
     }
 
-    #movie_box div{
-        background-color: gray;
+    
+
+    .hide{
+        display: none;
+    }
+
+    .checked{
+        opacity: 0.5;
     }
 
 }
