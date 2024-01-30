@@ -1,8 +1,7 @@
 body {
-  background-color: white;
+  background-color: black;
   margin: 0;
   padding: 0;
-  height: 100%;
   color: white;
   font-size: 16px;
 }
@@ -12,9 +11,9 @@ body a {
 }
 
 .home-container {
-  background-color: #333;
+  background-color: black;
+  width: 50%;
   min-width: 390px;
-  width: 50vw;
   margin: 0 auto;
   height: 100vh;
   display: flex;
