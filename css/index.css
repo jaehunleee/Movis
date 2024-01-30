@@ -1,0 +1,86 @@
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  color: white;
+  font-size: 16px;
+}
+
+body a {
+  text-decoration: none;
+}
+
+.home-container {
+  background-color: #333;
+  min-width: 390px;
+  width: 50vw;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-container > * {
+  width: 90%;
+}
+
+.home-main_image {
+  height: 40vh;
+  width: 90%;
+  margin-top: 20em;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.home-main_image > span:first-child {
+  font-size: 2.3em;
+  font-weight: 700;
+  margin: 1em 0;
+}
+
+.home-mobile-none {
+  opacity: 0.5;
+}
+
+.main_page-button {
+  background-color: #fbc500;
+  color: black;
+  font-size: 1.2em;
+  font-weight: 650;
+  margin: 2em;
+  text-align: center;
+  padding: 1em 0;
+  border-radius: 0.5em;
+}
+
+.home-description {
+  margin: 1.5em auto;
+  color: #647181;
+  text-align: center;
+}
+
+.home-ott-button-box {
+  display: flex;
+  justify-content: center;
+}
+
+.home-ott-button img {
+  width: 3em;
+  height: 3em;
+  border-radius: 1em;
+  margin: 0 0.3em;
+}
+
+.home-ott-button:last-child {
+  background-color: black;
+  color: #647181;
+  width: 4em;
+  height: 3em;
+  border-radius: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
