@@ -1,3 +1,5 @@
+@import "./navigator.css";
+
 body {
   background-color: black;
   margin: 0;
@@ -10,32 +12,39 @@ body a {
   text-decoration: none;
 }
 
+.index-bg-box {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
+    url(../images/index-bg.png);
+  background-size: cover;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
 .home-container {
-  background-color: black;
-  width: 50%;
+  background-color: rgba(0, 0, 0, 0);
+  width: 70%;
   min-width: 390px;
   margin: 0 auto;
   height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.home-container > * {
-  width: 90%;
+  box-sizing: border-box;
+  padding: 0 5%;
 }
 
 .home-main_image {
   height: 40vh;
   width: 90%;
-  margin-top: 20em;
+  margin-top: 10em;
   display: flex;
   flex-direction: column;
   text-align: center;
 }
 
 .home-main_image > span:first-child {
-  font-size: 2.3em;
+  font-size: 2.2em;
   font-weight: 700;
   margin: 1em 0;
 }
@@ -49,10 +58,11 @@ body a {
   color: black;
   font-size: 1.2em;
   font-weight: 650;
-  margin: 2em;
+  margin: 2em auto;
   text-align: center;
   padding: 1em 0;
   border-radius: 0.5em;
+  width: 300px;
 }
 
 .home-description {
