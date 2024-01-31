@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  background-color: black;
+}
+
+.main-nav-box {
+  position: fixed;
+  top: 0;
+  width: 90%;
+  padding: 0 5%;
+  z-index: 3;
+}
+
+.main-nav-box ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: #999c9f;
+  background-color: black;
+}
+
+.main-nav-box ul a {
+  text-decoration: none;
+  color: #999c9f;
+}
+
+.main-nav-box > ul {
+  display: flex;
+  padding: 1em;
+  align-items: center;
+}
+
+.main-nav1 {
+  justify-content: space-between;
+}
+
+.main-nav1 li:nth-child(2) a {
+  font-size: 1.5em;
+  display: flex;
+  align-items: center;
+  color: #eecf1c;
+}
+.main-nav2-list {
+  margin-right: 1.5em;
+  width: 2em;
+}
+
+.main-nav2 {
+  justify-content: flex-start;
+}
+
+.main-nav2-search-box {
+  flex-grow: 1;
+  background-color: #222;
+  height: 2.1em;
+  position: relative;
+  border-radius: 0.3em;
+  font-size: 1.1em;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.main-nav2-search-box :hover {
+  cursor: text;
+}
+
+.main-nav2-search-box i {
+  margin: 0 0.5em;
+}
+.main-nav2-search-box form {
+  width: 100%;
+}
+
+.main-nav2-search {
+  background-color: #222;
+  border: none;
+  color: white;
+  width: 100%;
+  font-size: 1em;
+}
+
+.main-nav2-search:focus {
+  outline: none;
+}
+
+.main-logo {
+  width: 5em;
+  margin-left: 0.3em;
+}
+
+.main-nav-margin_box {
+  height: 131px;
+  background-color: black;
+}
+
+.main-nav-hidden {
+  display: none;
+}
+
+.main-nav2-search-focused-box {
+  box-sizing: border-box;
+  position: absolute;
+  top: 1.7em;
+  padding: 2em 1.5em;
+  width: 100%;
+  background-color: #222;
+  border-radius: 0.3em;
+  z-index: 5;
+}
+
+.main-nav2-search-focused-box:hover {
+  cursor: default;
+}
+
+.main-nav2-search-focused-box > div:nth-child(2) {
+  color: white;
+  margin: 2em 0 0.5em 0;
+}
+
+.main-nav2-search-recommend {
+  font-size: 0.8em;
+  border: 1px solid #999c9f;
+  padding: 0.5em 1em 0.5em 0;
+  margin: 0.5em 0.3em;
+  display: inline-block;
+  border-radius: 0.3em;
+  color: white;
+}
+
+.main-nav2-search-recommend:hover {
+  cursor: pointer;
+}
+
+.main-nav2-search-recommend i {
+  color: #999c9f;
+}
+
+.main-nav-shadow {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  position: absolute;
+  opacity: 0.7;
+  z-index: 2;
+}
+
+@media (max-width: 500px) {
+  .main-nav-box {
+    padding: 0;
+    width: 100%;
+  }
+}
