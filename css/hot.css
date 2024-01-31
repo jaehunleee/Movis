@@ -25,12 +25,6 @@
 
 }
 
-#ott_box .netflix_button{
-    padding-left: 20px;
-}
-
-
-
 #ott_box img:active{
     transform: scale(1.2);
 }
@@ -44,7 +38,7 @@
     width: 100%;
     height: auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit,167px);
+    grid-template-columns: repeat(auto-fit,minmax(167px,1fr));
     grid-template-rows: repeat(auto,237px);
     grid-gap: 20px 20px;
     place-items: center;
