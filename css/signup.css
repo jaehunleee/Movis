@@ -1,13 +1,14 @@
-*{
+@import url("./navigator.css");
+
+#container * {
   margin: 0;
   text-decoration: none;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: #11181f;
 }
-p{
+#container p {
   color: antiquewhite;
 }
-#container{
-  
+#container {
   width: 60%;
   height: 600px;
   margin: 30px auto;
@@ -16,11 +17,12 @@ p{
   flex-direction: column;
   max-width: 1000px;
   min-width: 360px;
+  background-color: #11181f;
 }
-.hidden{
+.hidden {
   display: none;
 }
-#containerHeader{
+#containerHeader {
   width: 100%;
   height: 20%;
   text-align: center;
@@ -31,42 +33,43 @@ p{
   box-sizing: border-box;
   padding: 0 10px;
 }
-.header1{
+.header1 {
   flex-direction: row;
   align-items: self-start;
 }
-.header2{
+.header2 {
   flex-direction: row;
   text-align: center;
 }
-.header3{
+.header3 {
   flex-direction: row;
   align-items: flex-end;
 }
-#containerFooter{
+#containerFooter {
   width: 100%;
   height: 80%;
   text-align: center;
 }
-#containerFooter>div{
+#containerFooter > div {
   margin-bottom: 24px;
 }
-i{
+#container i {
   color: white;
 }
-input, button{
+#container input,
+#container button {
   background-color: white;
 }
-button>a{
+#container button > a {
   background-color: white;
 }
-input{
+#container input {
   width: 200px;
   height: 30px;
   background-color: #1c252f;
   border-style: none;
 }
-div>button{
+#container div > button {
   width: 30%;
   height: 10%;
   border-radius: 1rem;

@@ -1,21 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../css/login.css">
-  <title>Login</title>
-</head>
-<body>
-  <div id="container">
-    <div id="containerHeader"><p>Movis 계정</p></div>
-    <div id="containerFooter">
-      <a href="./login1.html"><button><img src="../images/login/sign_in.svg" width="20" height="18">Sign in</button></a><br>
-      <a href="./signup.html"><button><img src="../images/login/sign_up.svg" width="20" height="18">Sign up</button></a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/login.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <header>
+      <div class="main-nav-super-box"></div>
+      <nav class="main-nav-box">
+        <ul class="main-nav1">
+          <li><i class="fa-solid fa-bars"></i></li>
+          <li>
+            <a href="../index.html">
+              <i class="fa-solid fa-play"></i>
+              <img class="main-logo" src="../images/movis-logo.png" alt="" />
+            </a>
+          </li>
+          <li>
+            <a href="./login.html"><i class="fa-solid fa-user"></i></a>
+          </li>
+        </ul>
+        <ul class="main-nav2">
+          <li class="main-nav2-list"><a href="./main.html">추천</a></li>
+          <li class="main-nav2-list"><a href="./new.html">New</a></li>
+          <li class="main-nav2-list"><a href="./hot.html">인기</a></li>
+          <li class="main-nav2-search-box">
+            <label for="search">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </label>
+            <form action="./search-new.html">
+              <input
+                id="search"
+                class="main-nav2-search"
+                type="text"
+                placeholder="검색"
+                autocomplete="off"
+              />
+            </form>
+            <div class="main-nav2-search-focused-box main-nav-hidden">
+              <div>최근 검색 결과가 없습니다.</div>
+              <div>인기 검색어</div>
+              <div class="main-nav2-search-recommend-box">
+                <div class="main-nav2-search-recommend"></div>
+                <div class="main-nav2-search-recommend"></div>
+                <div class="main-nav2-search-recommend"></div>
+                <div class="main-nav2-search-recommend"></div>
+                <div class="main-nav2-search-recommend"></div>
+                <div class="main-nav2-search-recommend"></div>
+                <div class="main-nav2-search-recommend"></div>
+                <div class="main-nav2-search-recommend"></div>
+                <div class="main-nav2-search-recommend"></div>
+                <div class="main-nav2-search-recommend"></div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <div class="main-nav-margin_box"></div>
+    </header>
+    <div id="container">
+      <div id="containerHeader"><p>Movis 계정</p></div>
+      <div id="containerFooter">
+        <a href="./login1.html"
+          ><button>
+            <img src="../images/login/sign_in.svg" width="20" height="18" />Sign
+            in
+          </button></a
+        ><br />
+        <a href="./signup.html"
+          ><button>
+            <img src="../images/login/sign_up.svg" width="20" height="18" />Sign
+            up
+          </button></a
+        >
+      </div>
     </div>
-  </div>
-  
-
-
-</body>
+    <script
+      src="https://kit.fontawesome.com/2faf129455.js"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="../js/nav.js"></script>
+  </body>
 </html>
