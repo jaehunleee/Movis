@@ -47,8 +47,19 @@ p{
 #containerFooter>div{
   margin-bottom: 30px;
 }
-input, button{
+button{
   background-color: white;
+}
+div>button{
+  width: 30%;
+  height: 10%;
+  border-radius: 1rem;
+}
+input{
+  background-color: #1c252f;
+  width: 50%;
+  height: 30px;
+  border-style: none;
 }
 i{
   color: white;
