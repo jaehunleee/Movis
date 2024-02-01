@@ -1,115 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/detail.css" />
+    <script
+      src="https://kit.fontawesome.com/e305523b80.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="../css/detail.css">
-  <script src="https://kit.fontawesome.com/e305523b80.js" crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-</head>
-
-<body>
-  <header>
-    <div class="main-nav-super-box"></div>
-    <nav class="main-nav-box">
-      <ul class="main-nav1">
-        <li><i class="fa-solid fa-bars"></i></li>
-        <li>
-          <a href="../index.html">
-            <i class="fa-solid fa-play"></i>
-            <img class="main-logo" src="../images/movis-logo.png" alt="" />
-          </a>
-        </li>
-        <li>
-          <a href="./login.html"><i class="fa-solid fa-user"></i></a>
-        </li>
-      </ul>
-      <ul class="main-nav2">
-        <li class="main-nav2-list"><a href="./html/main.html">추천</a></li>
-        <li class="main-nav2-list"><a href="./html/new.html">New</a></li>
-        <li class="main-nav2-list"><a href="./html/hot.html">인기</a></li>
-        <li class="main-nav2-search-box">
-          <label for="search">
-            <i class="fa-solid fa-magnifying-glass"></i>
-          </label>
-          <form action="./html/search.html">
-            <input
-              id="search"
-              class="main-nav2-search"
-              type="text"
-              placeholder="검색"
-              autocomplete="off"
-            />
-          </form>
-          <div class="main-nav2-search-focused-box main-nav-hidden">
-            <div>최근 검색 결과가 없습니다.</div>
-            <div>인기 검색어</div>
-            <div class="main-nav2-search-recommend-box">
-              <div class="main-nav2-search-recommend">
-                <i class="fa-solid fa-magnifying-glass"></i>안녕
+  <body>
+    <header>
+      <div class="main-nav-super-box"></div>
+      <nav class="main-nav-box">
+        <ul class="main-nav1">
+          <li><i class="fa-solid fa-bars"></i></li>
+          <li>
+            <a href="../index.html">
+              <i class="fa-solid fa-play"></i>
+              <img class="main-logo" src="../images/movis-logo.png" alt="" />
+            </a>
+          </li>
+          <li>
+            <a href="./login.html"><i class="fa-solid fa-user"></i></a>
+          </li>
+        </ul>
+        <ul class="main-nav2">
+          <li class="main-nav2-list"><a href="./main.html">추천</a></li>
+          <li class="main-nav2-list"><a href="./new.html">New</a></li>
+          <li class="main-nav2-list"><a href="./hot.html">인기</a></li>
+          <li class="main-nav2-search-box">
+            <label for="search">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </label>
+            <form action="./search-new.html">
+              <input
+                id="search"
+                class="main-nav2-search"
+                type="text"
+                placeholder="검색"
+                autocomplete="off"
+              />
+            </form>
+            <div class="main-nav2-search-focused-box main-nav-hidden">
+              <div>최근 검색 결과가 없습니다.</div>
+              <div>인기 검색어</div>
+              <div class="main-nav2-search-recommend-box">
+                <div class="main-nav2-search-recommend"></div>
+                <div class="main-nav2-search-recommend"></div>
+                <div class="main-nav2-search-recommend"></div>
+                <div class="main-nav2-search-recommend"></div>
+                <div class="main-nav2-search-recommend"></div>
+                <div class="main-nav2-search-recommend"></div>
+                <div class="main-nav2-search-recommend"></div>
+                <div class="main-nav2-search-recommend"></div>
+                <div class="main-nav2-search-recommend"></div>
+                <div class="main-nav2-search-recommend"></div>
               </div>
-              <div class="main-nav2-search-recommend">안녕</div>
-              <div class="main-nav2-search-recommend">안녕</div>
-              <div class="main-nav2-search-recommend">안녕</div>
-              <div class="main-nav2-search-recommend">안녕</div>
-              <div class="main-nav2-search-recommend">안녕</div>
-              <div class="main-nav2-search-recommend">안녕</div>
-              <div class="main-nav2-search-recommend">안녕</div>
-              <div class="main-nav2-search-recommend">안녕</div>
-              <div class="main-nav2-search-recommend">안녕</div>
             </div>
-          </div>
-        </li>
-      </ul>
-    </nav>
-    <div class="main-nav-margin_box"></div>
-  </header>
-  <div id="nav_div">
-  </div>
-  <div id="main_div">
-    <iframe id="movie" width="370" height="315" src="https://www.youtube.com/embed/P5EvdQ7JQnk?si=_k0iZ3izh3UhM-y3"
-      title="YouTube video player" frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen></iframe>
+          </li>
+        </ul>
+      </nav>
+      <div class="main-nav-margin_box"></div>
+    </header>
+    <div id="main_div">
+      <iframe
+        id="movie"
+        width="370"
+        height="315"
+        src="https://www.youtube.com/embed/P5EvdQ7JQnk?si=_k0iZ3izh3UhM-y3"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
 
-    <div><span style="color: white;" id="text1"><strong>웰컴투 삼달리</strong> <span>(2023)</span></span></div>
-    <hr>
-    <span style="color: gray;"><strong>1개 시즌</strong></span>
-    <div><img style="margin-left: .3125rem;" id="img_scale" src="../images/samdali.png" alt=""></div>
-    <div style="clear: both;"><span style="color: gray;">시즌 1</span></div>
-    <br>
-    <div id="div_detail"><strong>시놉시스</strong>
-      <p>한라산 어느 개천에서 난 용 같은 삼달이 개천을 소중히 지켜 온 용필과 고향의 품으로 돌아와 숨을 고르고, 사랑을 찾는 이야기</p>
+      <div>
+        <span style="color: white" id="text1"
+          ><strong>웰컴투 삼달리</strong> <span>(2023)</span></span
+        >
+      </div>
+      <hr />
+      <span style="color: gray"><strong>1개 시즌</strong></span>
+      <div>
+        <img
+          style="margin-left: 0.3125rem"
+          id="img_scale"
+          src="../images/samdali.png"
+          alt=""
+        />
+      </div>
+      <div style="clear: both"><span style="color: gray">시즌 1</span></div>
+      <br />
+      <div id="div_detail">
+        <strong>시놉시스</strong>
+        <p>
+          한라산 어느 개천에서 난 용 같은 삼달이 개천을 소중히 지켜 온 용필과
+          고향의 품으로 돌아와 숨을 고르고, 사랑을 찾는 이야기
+        </p>
+      </div>
+      <hr />
+      <div style="margin-left: 0.3125rem" id="text_color">
+        <strong>지금 시청하기</strong>
+      </div>
+      <nav>
+        <span style="margin-left: 0.3125rem" id="text_color">최저가</span> |
+        <span id="text_color">무료</span> | <span id="text_color">SD</span> |
+        <span id="text_color">HD</span>
+      </nav>
+      <img id="sub_img" src="../images/netflix.png" alt="" />
+      <img id="sub_img" src="../images/netflix2.png" alt="" />
+      <div>
+        <span id="text_color">&nbsp;1시즌 &nbsp;&nbsp;</span>
+        <span id="text_color">1시즌</span>
+      </div>
+      <hr />
+      <h2 style="margin-left: 0.3125rem" id="text_color">리뷰작성 폼</h2>
+      <div class="star_rating">
+        <span class="star on" value="1"> </span>
+        <span class="star" value="2"> </span>
+        <span class="star" value="3"> </span>
+        <span class="star" value="4"> </span>
+        <span class="star" value="5"> </span>
+      </div>
+      <textarea
+        class="star_box"
+        placeholder="리뷰 내용을 작성해주세요."
+      ></textarea>
+      <input type="submit" class="btn02" value="리뷰 등록" />
     </div>
-    <hr>
-    <div style="margin-left: .3125rem;" id="text_color"><strong>지금 시청하기</strong></div>
-    <nav>
-      <span style="margin-left: .3125rem;" id="text_color">최저가</span> |
-      <span id="text_color">무료</span> |
-      <span id="text_color">SD</span> |
-      <span id="text_color">HD</span>
-    </nav>
-    <img id="sub_img" src="../images/netflix.png" alt="">
-    <img id="sub_img" src="../images/netflix2.png" alt="">
-    <div>
-      <span id="text_color">&nbsp;1시즌 &nbsp;&nbsp;</span>
-      <span id="text_color">1시즌</span>
-    </div>
-    <hr>
-    <h2 style="margin-left: .3125rem;" id="text_color">리뷰작성 폼</h2>
-    <div class="star_rating">
-      <span class="star on" value="1"> </span>
-      <span class="star" value="2"> </span>
-      <span class="star" value="3"> </span>
-      <span class="star" value="4"> </span>
-      <span class="star" value="5"> </span>
-    </div>
-    <textarea class="star_box" placeholder="리뷰 내용을 작성해주세요."></textarea>
-    <input type="submit" class="btn02" value="리뷰 등록" />
-  </div>
-  <script src="../js/detail.js"></script>
-</body>
-
+    <script type="module" src="../js/nav.js"></script>
+    <script src="../js/detail.js"></script>
+  </body>
 </html>

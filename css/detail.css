@@ -1,12 +1,12 @@
 @import "./navigator.css";
 
-* {
+#main_div * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-#nav_div{
+#nav_div {
   height: 2rem;
   background-color: #333;
   min-width: 390px;
@@ -17,7 +17,7 @@
   align-items: center;
 }
 
-#main_div{
+#main_div {
   margin: auto;
   background-color: #333;
   min-width: 390px;
@@ -26,60 +26,60 @@
   overflow-y: auto;
 }
 
-#div_detail{
+#div_detail {
   padding: 10px;
   border: 1px solid;
   border-radius: 5px;
   color: white;
 }
 
-#text_color{
+#text_color {
   color: white;
 }
 
-#text1{
-  font-size:x-large;
+#text1 {
+  font-size: x-large;
 }
 
-#img_scale{
+#img_scale {
   float: inline-start;
   width: 12.5rem;
   height: 18.75rem;
-  border-radius: .3125rem;
+  border-radius: 0.3125rem;
 }
 
-#sub_img{
-  margin-top: .625rem;
+#sub_img {
+  margin-top: 0.625rem;
   width: 3.125rem;
   height: 2.5rem;
-  margin-left: .3125rem;
+  margin-left: 0.3125rem;
 }
 
 .star_rating {
-  width: 100%; 
-  box-sizing: border-box; 
-  display: inline-flex; 
+  width: 100%;
+  box-sizing: border-box;
+  display: inline-flex;
   float: left;
-  flex-direction: row; 
+  flex-direction: row;
   justify-content: flex-start;
 }
 .star_rating .star {
-  width: 25px; 
-  height: 25px; 
-  margin-right: 10px;
-  display: inline-block; 
-  background: url('../images/empty_star.png') no-repeat; 
-  background-size: 100%; 
-  box-sizing: border-box; 
-}
-.star_rating .star.on {
-  width: 25px; 
+  width: 25px;
   height: 25px;
   margin-right: 10px;
-  display: inline-block; 
-  background: url('../images/star.png') no-repeat;
-  background-size: 100%; 
-  box-sizing: border-box; 
+  display: inline-block;
+  background: url("../images/empty_star.png") no-repeat;
+  background-size: 100%;
+  box-sizing: border-box;
+}
+.star_rating .star.on {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  display: inline-block;
+  background: url("../images/star.png") no-repeat;
+  background-size: 100%;
+  box-sizing: border-box;
 }
 
 .star_box {
@@ -88,7 +88,7 @@
   display: inline-block;
   margin: 15px 0;
   margin-left: 5px;
-  background: #F3F4F8;
+  background: #f3f4f8;
   border: 0;
   border-radius: 10px;
   height: 100px;
@@ -98,17 +98,17 @@
   font-family: sans-serif;
 }
 .btn02 {
-  display:block;
+  display: block;
   width: 97%;
   font-weight: bold;
   border: 0;
   border-radius: 10px;
   max-height: 50px;
   padding: 15px 0;
-  margin: .3125rem;
+  margin: 0.3125rem;
   font-size: 1.1em;
   text-align: center;
-  background:bisque;
+  background: bisque;
 }
 #movie {
   width: 100%;
@@ -118,11 +118,11 @@
   /* #main_div {
     margin: auto;
   } */
-  .star_box, .btn02 {
-    margin-left: .625rem;
+  .star_box,
+  .btn02 {
+    margin-left: 0.625rem;
   }
   /* #img_scale{
 
   } */
-
 }
