@@ -1,12 +1,12 @@
 @import "./navigator.css";
 
-* {
+#main_div * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-#nav_div{
+#nav_div {
   height: 2rem;
   background-color: #333;
   min-width: 390px;
@@ -17,7 +17,7 @@
   align-items: center;
 }
 
-#main_div{
+#main_div {
   margin: auto;
   width: 1000px;
   background-color: #333;
@@ -27,46 +27,54 @@
   overflow-y: auto;
 }
 
-#div1{
-  margin-top: .625rem;
-  margin-left: .3125rem;
+#div1 {
+  margin-top: 0.625rem;
+  margin-left: 0.3125rem;
 }
 
-#text_color{
+#text_color {
   color: white;
   /* margin-left: .3125rem; */
 }
 
-#img_scale{
+#img_scale {
   float: inline-start;
   width: 6.25rem;
   height: 9.375rem;
-  border-radius: .3125rem;
+  border-radius: 0.3125rem;
 }
 
-#sub_img{
-  margin-top: .625rem;
+#sub_img {
+  margin-top: 0.625rem;
   width: 3.125rem;
   height: 2.5rem;
-  margin-left: .3125rem;
+  margin-left: 0.3125rem;
   border-radius: 5px;
 }
 
-#sub_img_toggle{
-  margin: .3125rem;
+#sub_img_toggle {
+  margin: 0.3125rem;
 }
 
-#toggle_button{
+#toggle_button {
   margin-left: 10rem;
 }
 
-#streaming{
+#streaming {
   background-color: beige;
   width: 300px;
 }
 
 @media (min-width: 24.4375rem) {
-  #nav_div, #main_div, #div1, #text_color, #img_scale, #sub_img, #sub_img_toggle, #toggle_button, #streaming {
+  #nav_div,
+  #main_div,
+  #div1,
+  #text_color,
+  #img_scale,
+  #sub_img,
+  #sub_img_toggle,
+  #toggle_button,
+  #streaming {
     margin: auto; /* 390px 이상일 때 모든 요소를 가운데 정렬 */
   }
 }
