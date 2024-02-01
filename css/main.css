@@ -216,6 +216,9 @@ body a {
   align-items: center;
   margin-bottom: 0.8em;
 }
+.main-today-chart_list > span:last-child {
+  width: 8em;
+}
 
 .main-today-chart_list img {
   width: 3.4em;
