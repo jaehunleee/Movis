@@ -20,6 +20,8 @@
   width: 100%;
   height: auto;
   position: fixed;
+  display: flex;
+  justify-content: center;
 }
 
 #ott_box img {
