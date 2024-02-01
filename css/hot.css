@@ -83,6 +83,8 @@
     #ott_box{
         width: 100%;
         height: auto;
+        display: flex;
+        justify-content: center;
     }
 
     #ott_box span{

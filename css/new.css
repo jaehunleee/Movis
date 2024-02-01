@@ -38,6 +38,7 @@
 #new_box button{
     width: 120px;
     height: 50px;
+    background-color: grey;
     
 }
 
@@ -123,7 +124,7 @@
     }
 
     #new_box button{
-        background-color: black;
+        background-color: grey;
     }
 
     #movie_box{
