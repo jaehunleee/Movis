@@ -14,7 +14,7 @@ function handleSearchFocus() {
   });
   searchExpand.classList.remove("main-nav-hidden");
   searchRecommend.forEach((recommend) => {
-    let i = Math.ceil(Math.random() * 62);
+    let i = Math.floor(Math.random() * 62);
     recommend.innerHTML = `<i class="fa-solid fa-magnifying-glass"></i> ${movieTitle[i]} `;
   });
   navShadow.classList.add("main-nav-shadow");

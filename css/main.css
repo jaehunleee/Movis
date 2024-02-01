@@ -244,8 +244,8 @@ body a {
 }
 
 .main-today-top10 img {
-  height: 3.6em;
-  width: 5.4em;
+  height: 5.4em;
+  width: 3.6em;
   margin-bottom: 1em;
   margin-right: 1em;
 }
@@ -254,7 +254,6 @@ body a {
   align-items: center;
 }
 .main-today-top10 div span:first-child {
-  font-size: 6em;
   margin-right: 0.5em;
 }
 
@@ -351,7 +350,7 @@ body a {
   color: white;
   background-color: #181818;
   border: none;
-  margin: 1em;
+  margin: 2em 0;
 }
 
 .hidden {
@@ -436,5 +435,11 @@ body a {
   }
   .main-today-top10 > div > span:first-child {
     margin-right: 0;
+  }
+  .main-today-top10 div span:first-child {
+    font-size: 6em;
+  }
+  .main-today-top10 > div:last-child span:first-child {
+    margin-right: 0.45em;
   }
 }
