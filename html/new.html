@@ -7,89 +7,89 @@
     <title>Document</title>
 </head>
 <body>
+    <header>
+        <div class="main-nav-super-box"></div>
+        <nav class="main-nav-box">
+          <ul class="main-nav1">
+            <li><i class="fa-solid fa-bars"></i></li>
+            <li>
+              <a href="../index.html">
+                <i class="fa-solid fa-play"></i>
+                <img class="main-logo" src="../images/movis-logo.png" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="./login.html"><i class="fa-solid fa-user"></i></a>
+            </li>
+          </ul>
+          <ul class="main-nav2">
+            <li class="main-nav2-list"><a href="./html/main.html">추천</a></li>
+            <li class="main-nav2-list"><a href="./html/new.html">New</a></li>
+            <li class="main-nav2-list"><a href="./html/hot.html">인기</a></li>
+            <li class="main-nav2-search-box">
+              <label for="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </label>
+              <form action="./html/search.html">
+                <input
+                  id="search"
+                  class="main-nav2-search"
+                  type="text"
+                  placeholder="검색"
+                  autocomplete="off"
+                />
+              </form>
+              <div class="main-nav2-search-focused-box main-nav-hidden">
+                <div>최근 검색 결과가 없습니다.</div>
+                <div>인기 검색어</div>
+                <div class="main-nav2-search-recommend-box">
+                  <div class="main-nav2-search-recommend">
+                    <i class="fa-solid fa-magnifying-glass"></i>안녕
+                  </div>
+                  <div class="main-nav2-search-recommend">안녕</div>
+                  <div class="main-nav2-search-recommend">안녕</div>
+                  <div class="main-nav2-search-recommend">안녕</div>
+                  <div class="main-nav2-search-recommend">안녕</div>
+                  <div class="main-nav2-search-recommend">안녕</div>
+                  <div class="main-nav2-search-recommend">안녕</div>
+                  <div class="main-nav2-search-recommend">안녕</div>
+                  <div class="main-nav2-search-recommend">안녕</div>
+                  <div class="main-nav2-search-recommend">안녕</div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </nav>
+        <div class="main-nav-margin_box"></div>
+      </header>
     <div id="container">
         <div id="ott_box">
-            <span class="netflix_button">넷플릭스</span>
-            <span class="disney_button">디즈니</span>
-            <span class="tving_button">티빙</span>
-            <span class="watcha_button">와챠</span>
+            <span class="netflix_button"><img src="../images/netflix.png" alt=""></span>
+            <span class="disney_button"><img src="../images/disney.png" alt=""></span>
+            <span class="tving_button"><img src="../images/tving.png" alt=""></span>
+            <span class="watcha_button"><img src="../images/watcha.png" alt=""></span>
         </div>
         <div id="new_box">
-            <button>개봉작</button>
-            <button>개봉 예정작</button>
+            <button class="open_button">개봉작</button>
+            <button class="unopen_button checked">개봉 예정작</button>
         </div>
 
-        <div id="movie_box">
-            <div class="all">all 1</div>
-            <div class="all">all 2</div>
-            <div class="all">all 3</div>
-            <div class="all">all 4</div>
-            <div class="all">all 5</div>
-            <div class="all">all 6</div>
-            <div class="all">all 7</div>
-            <div class="all">all 8</div>
-            <div class="all">all 9</div>
-            <div class="all">all 10</div>
-            <div class="all">all 11</div>
-            <div class="all">all 12</div>
-            <div class="all">all 13</div>
-            <div class="all">all 14</div>
-            <div class="netflix">netflix 1</div>
-            <div class="netflix">netflix 2</div>
-            <div class="netflix">netflix 3</div>
-            <div class="netflix">netflix 4</div>
-            <div class="netflix">netflix 5</div>
-            <div class="netflix">netflix 6</div>
-            <div class="netflix">netflix 7</div>
-            <div class="netflix">netflix 8</div>
-            <div class="netflix">netflix 9</div>
-            <div class="netflix">netflix 10</div>
-            <div class="netflix">netflix 11</div>
-            <div class="netflix">netflix 12</div>
-            <div class="netflix">netflix 13</div>
-            <div class="netflix">netflix 14</div>
-            <div class="disney">disney 1</div>
-            <div class="disney">disney 2</div>
-            <div class="disney">disney 3</div>
-            <div class="disney">disney 4</div>
-            <div class="disney">disney 5</div>
-            <div class="disney">disney 6</div>
-            <div class="disney">disney 7</div>
-            <div class="disney">disney 8</div>
-            <div class="disney">disney 9</div>
-            <div class="disney">disney 10</div>
-            <div class="disney">disney 11</div>
-            <div class="disney">disney 12</div>
-            <div class="disney">disney 13</div>
-            <div class="disney">disney 14</div>
-            <div class="tving">tving 1</div>
-            <div class="tving">tving 2</div>
-            <div class="tving">tving 3</div>
-            <div class="tving">tving 4</div>
-            <div class="tving">tving 5</div>
-            <div class="tving">tving 6</div>
-            <div class="tving">tving 7</div>
-            <div class="tving">tving 8</div>
-            <div class="tving">tving 9</div>
-            <div class="tving">tving 10</div>
-            <div class="tving">tving 11</div>
-            <div class="tving">tving 12</div>
-            <div class="tving">tving 13</div>
-            <div class="tving">tving 14</div>
-            <div class="watcha">watcha 1</div>
-            <div class="watcha">watcha 2</div>
-            <div class="watcha">watcha 3</div>
-            <div class="watcha">watcha 4</div>
-            <div class="watcha">watcha 5</div>
-            <div class="watcha">watcha 6</div>
-            <div class="watcha">watcha 7</div>
-            <div class="watcha">watcha 8</div>
-            <div class="watcha">watcha 9</div>
-            <div class="watcha">watcha 10</div>
-            <div class="watcha">watcha 11</div>
-            <div class="watcha">watcha 12</div>
-            <div class="watcha">watcha 13</div>
-            <div class="watcha">watcha 14</div>
+        <div class="open">
+            <div id="movie_box">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           </div>
+        </div>
+        
+        <div class="unopen hide">
+            <div id="movie_box">
+                <div class="unopen_movie"><img src="" alt=""></div>
+                <div class="unopen_movie"><img src="" alt=""></div>
+                <div class="unopen_movie"><img src="" alt=""></div>
+                <div class="unopen_movie"><img src="" alt=""></div>
+                <div class="unopen_movie"><img src="" alt=""></div>
+                <div class="unopen_movie"><img src="" alt=""></div>
+                <div class="unopen_movie"><img src="" alt=""></div>
+                <div class="unopen_movie"><img src="" alt=""></div>
+            </div>
         </div>
     </div>
     <script src="../js/new.js"></script>

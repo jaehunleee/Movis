@@ -1,3 +1,67 @@
+@import url(./navigator.css);
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color: white;
+    background-color: black;
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height:auto;
+    width:100vw;
+}
+
+#ott_box{
+    width: 100%;
+    height: auto;
+    position: fixed;
+}
+
+#ott_box img{
+    width:50px;
+    height: 50px;
+
+}
+
+#ott_box img:active{
+    transform: scale(1.2);
+}
+
+.open {
+    width: 100%;
+    height: auto;
+}
+
+#movie_box {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(167px,1fr));
+    grid-template-rows: repeat(auto,237px);
+    grid-gap: 20px 20px;
+    place-items: center;
+    margin-top: 60px;
+    
+}
+
+#movie_box div {
+    width: auto;;
+}
+
+.hide{
+    display: none;
+}
+
+.checked {
+    opacity: 0.5;
+}
+
+
 @media screen and (max-width: 391px) and (max-height: 845px) {
  
     *{
@@ -21,6 +85,23 @@
         height: auto;
     }
 
+    #ott_box span{
+        margin : 2px;
+    }
+
+    #ott_box .netflix_button{
+        margin-left: 12px;
+    }
+
+    #ott_box img{
+        width:48px;
+        height:48px;
+    }
+
+    #ott_box img:active{
+        transform: scale(1.2);
+    }
+
     #movie_box{
         width: 100%;
         height: auto;
@@ -31,8 +112,14 @@
         padding: 20px;
     }
 
-    #movie_box div{
-        background-color: gray;
+
+
+    .hide{
+        display: none;
+    }
+
+    .checked{
+        opacity: 0.5;
     }
 
 }
