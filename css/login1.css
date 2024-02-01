@@ -1,13 +1,16 @@
 *{
   margin: 0;
   text-decoration: none;
-  /* background-color: black; */
+  background-color: rgba(0, 0, 0, 0.6);
 }
 p{
-  /* color: antiquewhite; */
+  color: antiquewhite;
+}
+button{
+  background-color: white;
 }
 #container{
-  
+
   width: 300px;
   height: 450px;
   margin: 30px auto;
@@ -21,11 +24,13 @@ p{
   text-align: center;
   font-size: 24px;
   display: flex;
+  margin-top: 2rem;
 }
 .header1{
   flex-direction: row;
   align-items: self-start;
   margin-right: 90px;
+  margin-left: 10px;
 }
 .header2{
   flex-direction: row;
@@ -41,11 +46,14 @@ p{
   height: 80%;
   text-align: center;
 }
-button{
+#containerFooter>a>button{
   width: 200px;
   height: 50px;
   padding: auto;
   margin-bottom: 1.5rem;
   text-align: center;
   border-radius: 16px;
+}
+i{
+  color: white;
 }
