@@ -7,13 +7,15 @@ p{
   color: antiquewhite;
 }
 #container{
-
-  width: 300px;
-  height: 450px;
+  background-color: black;
+  width: 60%;
+  height: 600px;
   margin: 30px auto;
   align-items: center;
   display: flex;
   flex-direction: column;
+  max-width: 1000px;
+  min-width: 360px;
 }
 #containerHeader{
   width: 100%;
@@ -22,17 +24,17 @@ p{
   font-size: 24px;
   display: flex;
   margin-top: 2rem;
+  justify-content: space-between;
+  padding: 0 10px;
+  box-sizing: border-box;
 }
 .header1{
   flex-direction: row;
   align-items: self-start;
-  margin-left: 15px;
-  margin-right: 90px;
 }
 .header2{
   flex-direction: row;
   text-align: center;
-  margin-right: 90px;
 }
 .header3{
   flex-direction: row;
@@ -57,7 +59,7 @@ div>button{
 }
 input{
   background-color: #1c252f;
-  width: 50%;
+  width: 200px;
   height: 30px;
   border-style: none;
 }
@@ -66,4 +68,7 @@ i{
 }
 .hidden{
   display: none;
+}
+button>a{
+  background-color: white;
 }

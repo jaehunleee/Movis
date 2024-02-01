@@ -3,5 +3,5 @@ const remover = document.querySelector("#remover")
 
 open.addEventListener("click", () => {
   remover.classList.remove("hidden");
-  open.innerText = "Confirm";
+  open.innerHTML = `<a href="../index.html">confirm</a>`;
 });

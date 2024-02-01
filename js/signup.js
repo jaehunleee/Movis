@@ -6,7 +6,7 @@ open.addEventListener("click", () => {
   if(containerFooter.className == "hidden"){
     containerFooter.classList.remove("hidden");
   }else{container.classList.remove("hidden");
-  open.innerText = "Confirm";
-  }
+  open.innerHTML = `<a href="../index.html">confirm</a>`
+}
 });
 
