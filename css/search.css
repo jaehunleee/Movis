@@ -1,3 +1,5 @@
+@import "./navigator.css";
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +7,7 @@
 }
 
 #nav_div{
-  height: 5rem;
+  height: 2rem;
   background-color: #333;
   min-width: 390px;
   width: 50vw;
@@ -64,41 +66,7 @@
 }
 
 @media (min-width: 24.4375rem) {
-  #nav_div {
-    width: 100%;
-  }
-
-  #main_div {
-    width: 100%;
-    max-width: 100%;
-  }
-
-  #div1 {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  #text_color {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  #img_scale {
-    float: none; /* Remove float */
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  #sub_img {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  #sub_img_toggle {
-    margin: auto;
-  }
-
-  #toggle_button {
-    margin-left: auto;
+  #nav_div, #main_div, #div1, #text_color, #img_scale, #sub_img, #sub_img_toggle, #toggle_button, #streaming {
+    margin: auto; /* 390px 이상일 때 모든 요소를 가운데 정렬 */
   }
 }

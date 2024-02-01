@@ -216,6 +216,9 @@ body a {
   align-items: center;
   margin-bottom: 0.8em;
 }
+.main-today-chart_list > span:last-child {
+  width: 8em;
+}
 
 .main-today-chart_list img {
   width: 3.4em;
@@ -442,4 +445,9 @@ body a {
   .main-today-top10 > div:last-child span:first-child {
     margin-right: 0.45em;
   }
+}
+
+iframe{
+  width: 100%;
+  height: 236px;
 }
