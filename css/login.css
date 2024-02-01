@@ -7,12 +7,15 @@ p{
   color: antiquewhite;
 }
 #container{
-  width: 300px;
-  height: 450px;
+  width: 60%;
+  height: 600px;
   margin: 30px auto;
   align-items: center;
   display: flex;
   flex-direction: column;
+  max-width: 1000px;
+  min-width: 360px;
+  background-color:black;
 }
 #containerHeader{
   width: 100%;
