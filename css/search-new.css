@@ -1,0 +1,90 @@
+@import url("navigator.css");
+
+.search-page-container {
+  background-color: black;
+  color: white;
+  padding: 0 5%;
+}
+
+.search-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2em 0;
+}
+
+.search-menu > div:nth-child(2) {
+  padding: 0.6em 0.8em;
+  border-radius: 0.3em;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  opacity: 0.8;
+}
+
+.search-menu-filter {
+  margin: 5em 0 2em 0;
+}
+.search-ott-logo {
+  width: 3em;
+  height: 3em;
+  border-radius: 0.5em;
+  margin-right: 0.5em;
+}
+
+.search-content-box {
+  display: flex;
+  margin-bottom: 1.5em;
+}
+
+.search-random-image {
+  width: 12em;
+  height: 18em;
+  border-radius: 0.3em;
+}
+
+.search-random-text {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+.search-content-right {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1em;
+  padding: 0.5em 0;
+}
+
+.search-content-right > span:nth-child(2) {
+  opacity: 0.5;
+  margin-bottom: 0.5em;
+}
+
+.search-content-right > div:nth-child(3) {
+  background-color: #e6e6e6;
+  color: #777;
+  width: 5em;
+  text-align: center;
+  padding: 0.3em 0;
+  border-radius: 0.2em;
+  margin-bottom: 1em;
+}
+
+.search-hidden {
+  display: none;
+}
+
+.search-content-ott-box {
+  margin: 1em 0;
+}
+
+@media (max-width: 500px) {
+  .search-random-image {
+    width: 10em;
+    height: 15em;
+  }
+  .search-content-box .search-ott-logo {
+    width: 2em;
+    height: 2em;
+    border-radius: 0.5em;
+    margin-right: 0.5em;
+  }
+}
