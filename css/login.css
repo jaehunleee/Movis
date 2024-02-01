@@ -1,11 +1,11 @@
 *{
   margin: 0;
   text-decoration: none;
-  /* background-color: rgba(0,0,0,0.6); */
+  background-color: rgba(0,0,0,0.6);
 }
 p{
-  margin-top: 20px ;
-  /* color: antiquewhite; */
+  margin-top: 2rem ;
+  color: antiquewhite;
 }
 #container{
   width: 300px;
@@ -37,4 +37,5 @@ button{
   margin-bottom: 1.5rem;
   text-align: center;
   border-radius: 16px;
+  
 }
