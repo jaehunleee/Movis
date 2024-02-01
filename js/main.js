@@ -1,4 +1,4 @@
-import { movieTitle } from "./nav.js";
+import { movieTitle } from "./db.js";
 
 const mainVideoContainer = document.querySelector(".main-today-recommend");
 const mainVideoBox = document.querySelector(".main-video_box");
@@ -9,9 +9,8 @@ const date = document.querySelector(".main-calender-date");
 const posters = document.querySelectorAll(".main-random_poster");
 const titles = document.querySelectorAll(".main-random_title");
 const superBox = document.querySelector(".main-super-box");
-const video = document.querySelector(".main-iframe-video");
+const clock = document.querySelector(".main-clock");
 
-let maxWidth = container.offsetWidth;
 let widtH;
 let heighT;
 let widthIntervalId;
@@ -74,6 +73,17 @@ function random_poster_title() {
   }
 }
 random_poster_title();
+
+function getClock() {
+  const date = new Date();
+  const hours = String(23 - date.getHours()).padStart(2, "0");
+  const minutes = String(59 - date.getMinutes()).padStart(2, "0");
+  const seconds = String(59 - date.getSeconds()).padStart(2, "0");
+  clock.innerText = `새로운 추천까지 ${hours}:${minutes}:${seconds} 🔥`;
+}
+
+getClock();
+setInterval(getClock, 1000);
 
 mainVideoContainer.addEventListener("click", handleVideoClick);
 closeBtn.addEventListener("click", handleCloseClick);
