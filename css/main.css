@@ -446,3 +446,8 @@ body a {
     margin-right: 0.45em;
   }
 }
+
+iframe{
+  width: 100%;
+  height: 236px;
+}

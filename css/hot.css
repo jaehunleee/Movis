@@ -20,6 +20,8 @@
   width: 100%;
   height: auto;
   position: fixed;
+  display: flex;
+  justify-content: center;
 }
 
 #ott_box img {
@@ -115,4 +117,9 @@
   .checked {
     opacity: 0.5;
   }
+}
+
+iframe{
+    width: 100%;
+    height: 236px;
 }
