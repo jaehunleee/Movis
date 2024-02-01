@@ -1,9 +1,11 @@
+@import url(./navigator.css);
+
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
     color: white;
-    background-color: #333;
+    background-color: black;
 }
 
 #container{
@@ -81,7 +83,7 @@
         padding: 0;
         box-sizing: border-box;
         color: white; 
-        background-color: #333;
+        background-color: black;
     }
 
     #container{
@@ -122,7 +124,7 @@
     }
 
     #new_box button{
-        background-color: grey;
+        background-color: black;
     }
 
     #movie_box{
@@ -146,3 +148,8 @@
     }
 
 }
+
+i{
+    color: grey;
+}
+

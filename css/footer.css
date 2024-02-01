@@ -1,5 +1,36 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
+
+.slider {
+    overflow: hidden;
+    display: flex;
+    
+  }
+  
+  .slide-track1 {
+    display: flex;
+    animation: scroll 45s linear infinite;
+  }
+
+  .slide-track2 {
+    display: flex;
+    animation: copy 45s linear infinite;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(calc(-166px*62));
+    }
+    50.01%{
+        transform: translate(calc(166px*62));
+    }
+
+    100%{transform: translate()}
+  }
+
+  @keyframes copy{
+    0%{transform: translate(0);}
+    100%{transform: translate(calc(-166px*124));}
+  }
