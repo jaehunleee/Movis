@@ -38,7 +38,7 @@ function render() {
 function animationWidth() {
   mainVideoBox.style.width = `${widtH}px`;
   widtH += 10;
-  if (widtH > window.innerWidth * 0.7 || widtH > 1000)
+  if (widtH > window.innerWidth * 0.6 || widtH > 1000)
     clearInterval(widthIntervalId);
 }
 function animationHeight() {
@@ -54,7 +54,7 @@ function handleCloseClick() {
 
 function handleVideoResize() {
   if (window.innerWidth < 1000 && innerWidth > 500) {
-    mainVideoBox.style.width = `${window.innerWidth * 0.7}px`;
+    mainVideoBox.style.width = `${window.innerWidth * 0.6}px`;
     mainVideoBox.style.height = `${window.innerHeight * 1.5}px`;
   }
 }
