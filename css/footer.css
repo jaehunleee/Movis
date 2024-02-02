@@ -1,5 +1,3 @@
-
-
 .slider {
     overflow: hidden;
     display: flex;
@@ -8,12 +6,12 @@
   
   .slide-track1 {
     display: flex;
-    animation: scroll 45s linear infinite;
+    animation: scroll 60s linear infinite;
   }
 
   .slide-track2 {
     display: flex;
-    animation: copy 45s linear infinite;
+    animation: copy 60s linear infinite;
   }
   
   @keyframes scroll {

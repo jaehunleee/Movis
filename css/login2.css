@@ -1,69 +1,76 @@
-*{
+@import url("./navigator.css");
+
+#container * {
   margin: 0;
   text-decoration: none;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: #11181f;
 }
-p{
+#container p {
   color: antiquewhite;
 }
-#container{
-
-  width: 300px;
-  height: 450px;
+#container {
+  background-color: #11181f;
+  width: 60%;
+  height: 600px;
   margin: 30px auto;
   align-items: center;
   display: flex;
   flex-direction: column;
+  max-width: 1000px;
+  min-width: 360px;
 }
-#containerHeader{
+#containerHeader {
   width: 100%;
   height: 20%;
   text-align: center;
   font-size: 24px;
   display: flex;
   margin-top: 2rem;
+  justify-content: space-between;
+  padding: 0 10px;
+  box-sizing: border-box;
 }
-.header1{
+.header1 {
   flex-direction: row;
   align-items: self-start;
-  margin-left: 15px;
-  margin-right: 90px;
 }
-.header2{
+.header2 {
   flex-direction: row;
   text-align: center;
-  margin-right: 90px;
 }
-.header3{
+.header3 {
   flex-direction: row;
   align-items: flex-end;
 }
-#containerFooter{
+#containerFooter {
   width: 100%;
   height: 80%;
   text-align: center;
   margin-top: 1.5rem;
 }
-#containerFooter>div{
+#containerFooter > div {
   margin-bottom: 30px;
 }
-button{
+#container button {
   background-color: white;
 }
-div>button{
+#container div > button {
   width: 30%;
   height: 10%;
   border-radius: 1rem;
 }
-input{
+#container input {
   background-color: #1c252f;
-  width: 50%;
+  width: 200px;
   height: 30px;
   border-style: none;
 }
-i{
+#container i {
   color: white;
 }
-.hidden{
+.hidden {
   display: none;
+}
+#container button > a {
+  background-color: white;
 }
