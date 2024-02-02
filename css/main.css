@@ -331,6 +331,11 @@ body a {
 .main-video-go i {
   margin-right: 0.5em;
 }
+
+.main-video-go a {
+  color: black;
+}
+
 .main-video-description {
   display: flex;
   justify-content: space-between;
@@ -443,7 +448,7 @@ body a {
   }
 }
 
-iframe{
+iframe {
   width: 100%;
   height: 236px;
 }
