@@ -124,6 +124,10 @@ body a {
   overflow: visible;
 }
 
+.main-today-recommend:hover {
+  cursor: pointer;
+}
+
 .main-today-recommend:last-child {
   margin-right: 0;
 }
@@ -216,6 +220,11 @@ body a {
   align-items: center;
   margin-bottom: 0.8em;
 }
+
+.main-today-chart_list:hover {
+  cursor: pointer;
+}
+
 .main-today-chart_list > span:last-child {
   width: 8em;
 }
@@ -412,6 +421,10 @@ body a {
   position: fixed;
   opacity: 0.7;
   z-index: 4;
+}
+
+.main-random_poster:hover {
+  cursor: pointer;
 }
 
 @media (min-width: 700px) {
